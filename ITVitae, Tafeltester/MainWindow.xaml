@@ -5,24 +5,78 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ITVitae__Tafeltester"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
-    <Grid Margin="0,0,0.333,-0.333" Height="571" VerticalAlignment="Top">
-        <TextBox x:Name="Textbox_MaxHoogteSommen" HorizontalAlignment="Left" Height="32" Margin="593,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <Label Content="Tafeltester" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="45"/>
-        <Label Content="Vul het hoogste getal in dat gebruikt mag worden in de sommen" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontSize="20" Height="37"/>
-        <Button x:Name="Button_MaakSommen" Content="Maak Nieuwe Sommen" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="221" Height="31" FontSize="20" Click="Button_MaakSommen_Click"/>
-        <Label x:Name="Label_Sommen" Content="Sommen:" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" FontSize="20" Height="34" Width="100"/>
-        <Label x:Name="Label_1X" Content="" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="Label_2X" Content="" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="Label_3X" Content="" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="Label_4X" Content="" HorizontalAlignment="Left" Margin="10,254,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="Label_5X" Content="" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.583,-0.041"/>
-        <TextBox x:Name="Textbox_1X" HorizontalAlignment="Left" Height="37" Margin="162,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <TextBox x:Name="Textbox_2X" HorizontalAlignment="Left" Height="37" Margin="162,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <TextBox x:Name="Textbox_3X" HorizontalAlignment="Left" Height="37" Margin="162,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <TextBox x:Name="Textbox_4X" HorizontalAlignment="Left" Height="37" Margin="162,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <TextBox x:Name="Textbox_5X" HorizontalAlignment="Left" Height="37" Margin="162,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
-        <Button x:Name="Button_ShowScore" Content="Laat score zien" HorizontalAlignment="Left" Margin="10,328,0,0" VerticalAlignment="Top" Width="147" Height="31" FontSize="20" Click="Button_ShowScore_Click"/>
-        <Label Content="Je hebt een:" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" FontSize="20" Height="34" Width="325"/>
+        Title="MainWindow" Height="700" Width="800">
+    <Grid Height="670" VerticalAlignment="Top" Margin="0,0,0,-1">
+        <TextBox x:Name="Textbox_MaxHoogteSommen" HorizontalAlignment="Left" Height="35" Margin="593,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
+        <Label Content="Tafeltester" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="49"/>
+        <Label Content="Vul het hoogste getal in dat gebruikt mag worden in de sommen" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" FontSize="20" Height="41"/>
+        <Button x:Name="Button_MaakSommen" Content="Maak Nieuwe Sommen" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" Width="221" Height="33" FontSize="20" Click="Button_MaakSommen_Click"/>
+        <Label x:Name="Label_Sommen" Content="Sommen:" HorizontalAlignment="Left" Margin="10,198,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="100"/>
+        <Label x:Name="Label_1X" Content="" HorizontalAlignment="Left" Margin="10,241,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_2X" Content="" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_3X" Content="" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_4X" Content="" HorizontalAlignment="Left" Margin="10,362,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_5X" Content="" HorizontalAlignment="Left" Margin="10,402,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.583,-0.041" Height="40" Width="129"/>
+        <TextBox x:Name="Textbox_1X" HorizontalAlignment="Left" Height="40" Margin="144,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_2X" HorizontalAlignment="Left" Height="41" Margin="144,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_3X" HorizontalAlignment="Left" Height="40" Margin="144,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_4X" HorizontalAlignment="Left" Height="40" Margin="144,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_5X" HorizontalAlignment="Left" Height="41" Margin="144,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <Button x:Name="Button_ShowScore" Content="Laat score zien" HorizontalAlignment="Left" Margin="305,121,0,0" VerticalAlignment="Top" Width="173" Height="33" FontSize="20" Click="Button_ShowScore_Click"/>
+        <Label x:Name="LabelCijfer" Content="Je hebt een:" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" FontSize="20" Height="37" Width="305"/>
+        <Label x:Name="LabelGoF1" Content="" HorizontalAlignment="Left" Margin="291,241,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF2" Content="" HorizontalAlignment="Left" Margin="291,281,0,0" VerticalAlignment="Top" Height="41" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF3" Content="" HorizontalAlignment="Left" Margin="291,321,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF4" Content="" HorizontalAlignment="Left" Margin="291,361,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF5" Content="" HorizontalAlignment="Left" Margin="291,401,0,0" VerticalAlignment="Top" Height="41" Width="102" FontSize="20"/>
+        <Label Content="Hoeveel vragen wil je hebben?" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" FontSize="20" Height="41" Width="305"/>
+        <TextBox x:Name="TextboxHoeveelheidVragen" HorizontalAlignment="Left" Height="35" Margin="305,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" FontSize="20"/>
+        <Label x:Name="Label_6X" Content="" HorizontalAlignment="Left" Margin="10,442,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_7X" Content="" HorizontalAlignment="Left" Margin="10,482,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_8X" Content="" HorizontalAlignment="Left" Margin="10,522,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_9X" Content="" HorizontalAlignment="Left" Margin="10,562,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_10X" Content="" HorizontalAlignment="Left" Margin="10,602,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.583,-0.041" Height="40" Width="129"/>
+        <TextBox x:Name="Textbox_6X" HorizontalAlignment="Left" Height="40" Margin="144,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_7X" HorizontalAlignment="Left" Height="42" Margin="144,480,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_8X" HorizontalAlignment="Left" Height="40" Margin="144,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_9X" HorizontalAlignment="Left" Height="40" Margin="144,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_10X" HorizontalAlignment="Left" Height="40" Margin="144,602,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <Label x:Name="LabelGoF6" Content="" HorizontalAlignment="Left" Margin="291,442,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF7" Content="" HorizontalAlignment="Left" Margin="291,482,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF8" Content="" HorizontalAlignment="Left" Margin="291,522,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF9" Content="" HorizontalAlignment="Left" Margin="291,562,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF10" Content="" HorizontalAlignment="Left" Margin="291,602,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="Label_11X" Content="" HorizontalAlignment="Left" Margin="399,241,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_12X" Content="" HorizontalAlignment="Left" Margin="399,281,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_13X" Content="" HorizontalAlignment="Left" Margin="399,322,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_14X" Content="" HorizontalAlignment="Left" Margin="399,362,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_15X" Content="" HorizontalAlignment="Left" Margin="399,402,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.583,-0.041" Height="40" Width="129"/>
+        <TextBox x:Name="Textbox_11X" HorizontalAlignment="Left" Height="40" Margin="533,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_12X" HorizontalAlignment="Left" Height="41" Margin="533,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_13X" HorizontalAlignment="Left" Height="40" Margin="533,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_14X" HorizontalAlignment="Left" Height="40" Margin="533,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_15X" HorizontalAlignment="Left" Height="41" Margin="533,401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <Label x:Name="LabelGoF11" Content="" HorizontalAlignment="Left" Margin="680,241,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF12" Content="" HorizontalAlignment="Left" Margin="680,281,0,0" VerticalAlignment="Top" Height="41" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF13" Content="" HorizontalAlignment="Left" Margin="680,321,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF14" Content="" HorizontalAlignment="Left" Margin="680,361,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF15" Content="" HorizontalAlignment="Left" Margin="680,401,0,0" VerticalAlignment="Top" Height="41" Width="102" FontSize="20"/>
+        <Label x:Name="Label_16X" Content="" HorizontalAlignment="Left" Margin="399,442,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_17X" Content="" HorizontalAlignment="Left" Margin="399,482,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_18X" Content="" HorizontalAlignment="Left" Margin="399,522,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_19X" Content="" HorizontalAlignment="Left" Margin="399,562,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="129"/>
+        <Label x:Name="Label_20X" Content="" HorizontalAlignment="Left" Margin="399,602,0,0" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="0.583,-0.041" Height="40" Width="129"/>
+        <TextBox x:Name="Textbox_16X" HorizontalAlignment="Left" Height="40" Margin="533,442,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_17X" HorizontalAlignment="Left" Height="42" Margin="533,480,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_18X" HorizontalAlignment="Left" Height="40" Margin="533,522,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_19X" HorizontalAlignment="Left" Height="40" Margin="533,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <TextBox x:Name="Textbox_20X" HorizontalAlignment="Left" Height="40" Margin="533,602,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" FontSize="20"/>
+        <Label x:Name="LabelGoF16" Content="" HorizontalAlignment="Left" Margin="680,442,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF17" Content="" HorizontalAlignment="Left" Margin="680,482,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF18" Content="" HorizontalAlignment="Left" Margin="680,522,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF19" Content="" HorizontalAlignment="Left" Margin="680,562,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Label x:Name="LabelGoF20" Content="" HorizontalAlignment="Left" Margin="680,602,0,0" VerticalAlignment="Top" Height="40" Width="102" FontSize="20"/>
+        <Button x:Name="Button_Reset" Content="Reset" HorizontalAlignment="Left" Margin="593,121,0,0" VerticalAlignment="Top" Width="173" Height="33" FontSize="20" Click="Button_Reset_Click"/>
+
     </Grid>
 </Window>
